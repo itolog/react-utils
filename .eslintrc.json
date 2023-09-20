@@ -1,0 +1,62 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
+  "extends": [
+    "next/core-web-vitals",
+    "prettier",
+    "eslint:recommended",
+    "next",
+    "plugin:react/recommended",
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "prettier",
+    "react",
+    "react-hooks",
+    "prettier"
+  ],
+  "rules": {
+    "react-hooks/rules-of-hooks": "warn",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/display-name": "off",
+    "camelcase": "off",
+    "react/prop-types": "off",
+    "semi": [
+      "warn",
+      "always"
+    ],
+    "no-console": "warn",
+    "quotes": [
+      "warn",
+      "double",
+      {
+        "avoidEscape": true
+      }
+    ],
+    "no-unused-vars": "off",
+    "react/self-closing-comp": [
+      "warn",
+      {
+        "component": true,
+        "html": true
+      }
+    ],
+    "no-useless-escape": "warn",
+    "no-return-assign": "off",
+    "no-inner-declarations": "warn",
+    "require-yield": "warn",
+    "react/react-in-jsx-scope": "off",
+    "spaced-comment": "error",
+    "no-duplicate-imports": "error"
+  }
+}
